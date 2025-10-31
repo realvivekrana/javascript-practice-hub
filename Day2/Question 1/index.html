@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+</head>
+<body>
+    <script>
+        // Question 1 Global Vs Local variable
+        // Differentiate the difference between the scope of the global and local variable the help of the JavaScript function
+
+        var data = 200; //global variable declaration
+        function a () {
+            var data = 100; //local variable
+            document.write("Inside function : ", data); //inside function
+        }
+        document.write("Outside function : ", data); //outside function
+        document.write("<br>");
+        a ();
+    </script>
+</body>
+</html>
