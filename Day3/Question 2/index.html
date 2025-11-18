@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+</head>
+<body>
+    <h2>JavaScript Const</h2>
+    <p>Declaring a constant array does NOT make the elemens unchangeable:</p>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        //Write a JavaScript program with an array, and display the array, display only the element of an array, add a new element to an array, and display the modified array
+        
+        //Create an Array:
+        const fruits = ["Apple", "Banana", "Orange"];
+        //Display the Arrays:
+        document.getElementById("demo").innerHTML = fruits;
+        //change an element:
+        fruits[0] = "Apricot"
+
+        //Add an element:
+        fruits.push("Mango");
+
+        //Display the Arrays:
+        document.getElementById("demo1").innerHTML = fruits;
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3</title>
+</head>
+<body>
+    <h2>Redeclaring a Variable Using let</h2>
+    <p id="demo"></p>
+    <script>
+        //Write a simple JavaScript program that tries to redeclare the let variable
+        let x = 'Hello';
+        //Here x is Hello
+
+        {
+            let x = 'Hello JS';
+            //Here x is Hello JS
+        }
+        document.getElementById("demo").innerHTML = x;
+         //Here x is Hello
+    </script>
+</body>
+</html>
