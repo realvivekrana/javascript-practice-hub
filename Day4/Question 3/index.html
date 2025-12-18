@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3</title>
+</head>
+<body>
+    <h1>Arithmetic Operator</h1>
+    <h1>Number of weeks in year</h1>
+
+    <script>
+        var days = 365;
+        var week_days = 7;
+
+        var weeks = Math.trunc(days / week_days); // divide operation with trunc method
+        var remaining_days = days % week_days;   // modulus operation
+
+        document.write(weeks + " Weeks and " + remaining_days + " Day in a year");
+    </script>
+</body>
+</html>
