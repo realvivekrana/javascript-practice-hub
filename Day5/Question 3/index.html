@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random links</title>
+</head>
+<body>
+    <!--Display random links in your code, using Math.random method and conditions. The Math.ranom() generates random numbers if that numbers if that number is less than 1 that display a Linkedln link in the output, else display indeed link in the output. The output will vary each time.-->
+    <h1>JavaScript Math.random()</h1>
+    <p id="demo"></p>
+    <script>
+        let text;
+        if (Math.random() < 0.5) {
+            text = "<a href='linkedln.com'>LikedlIn</a>";
+        }
+        else{
+            text = "<a href='indeed.com'>Indeed</a>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>

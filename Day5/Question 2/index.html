@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting of the Day</title>
+</head>
+<body>
+    <!--By using Data and getHours method, get the current time and display the greeting (good day/evening depending on the time.)-->
+    <h1>JavaScript if...else</h1>
+    <p>A time-based greeting:</p>
+    <p id="demo"></p>
+    <script>
+        const hour = new Date().getHours();
+        let greeting;
+        if(hour < 18){
+            greeting = "Good Day";
+        }
+        else{
+            greeting = "Good evening";
+        }
+        document.getElementById("demo").innerHTML = greeting;
+    </script>
+</body>
+</html>
