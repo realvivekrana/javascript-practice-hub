@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Create a JavaScript program that displays the value of inner for loop for each outer iteration, as well as outer for loop.-->
+    <script>
+        //Outer for loop.
+        for(var i = 1; i <=3; i++){
+            document.write(i, "<br>"); //will execute 3 times.
+            //inner for loop.
+            for(var j = 1; j <=4; j++){
+                document.write(j, " "); //will execute 12 (3 * 4) times
+            }
+            document.write("<br>");
+        };
+    </script>
+</body>
+</html>
